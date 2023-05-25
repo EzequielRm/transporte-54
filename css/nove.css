@@ -1,0 +1,18 @@
+.novedade{
+    border: 1px solid #e24b21d0;
+    border-radius: 10px; 
+    font-size: 500px;
+
+}
+
+.novedade ,p{
+        color: #0d064dd3;
+        font-weight: 500;
+        font-style: italic;
+        border-bottom: 1px solid #060606d3;
+        padding-bottom: 15px;
+}
+.novedade ,h3,h4{
+    margin: 10px;
+    font-weight: 600;
+}
