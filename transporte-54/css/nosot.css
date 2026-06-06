@@ -1,18 +1,20 @@
 
 .historia p{
-    font-size: 12px; 
+    font-size: 15px; 
 }
 
 .personas{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    
+    gap: 20px;
 }
 
 .persona{
     border: 1px solid #ccc;
     border-radius: 5px;
-    width: 18%;
+    flex: 1 1 220px;
+    max-width: 240px;
     text-align: center;
     padding: 13px;
     box-sizing: border-box;
