@@ -1,0 +1,56 @@
+.novedades-list{
+    display: grid;
+    gap: 18px;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.novedades{
+    border: 1px solid #e24b21d0;
+    border-radius: 12px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.novedades:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.novedades .fecha{
+    display: inline-block;
+    margin-bottom: 10px;
+    color: #666;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.novedades h3,
+.novedades h4{
+    margin: 0 0 10px 0;
+}
+
+.novedades h3{
+    color: #333;
+    font-size: 1.3rem;
+}
+
+.novedades h4{
+    color: #2e64a1;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.novedades p{
+    margin: 0;
+    color: #444;
+    line-height: 1.7;
+}
+
+.intro{
+    margin: 0 0 18px 0;
+    color: #444;
+    max-width: 740px;
+}
