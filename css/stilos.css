@@ -33,6 +33,7 @@ header h1 {
 
 nav {
     background-color: #6da9ed;
+
 }
 nav ul {
     list-style: none;
@@ -44,6 +45,7 @@ nav ul {
     gap: 0.5rem;
     flex-wrap: wrap;
 }
+
 nav ul li {
     flex: 1 1 auto;
     text-align: center;
@@ -63,6 +65,7 @@ nav ul li a:hover {
 
 nav ul li a.activo {
     background-color: #4c76a5;
+    border-radius: 4px;
 }
 
 @media (max-width: 640px) {
@@ -80,7 +83,6 @@ nav ul li a.activo {
         overflow: hidden;
         text-overflow: ellipsis;
     }
-    /* make the active link look like a pill but not overflow */
     nav ul li a.activo {
         border-radius: 6px;
         display: inline-block;
